@@ -65,6 +65,8 @@
 
 .header__text {
   padding-right: 50px;
+  max-inline-size: 364px;
+  align-self: flex-end;
 }
 
 .accented-background {
@@ -73,6 +75,7 @@
   background-color: var(--accent-clr);
   font-weight: 700;
   line-height: 130%;
+  margin: 0 0 10px;
 }
 
 .why {
@@ -86,6 +89,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
+  margin: 0 0 20px;
 }
 
 .why__list {
@@ -98,6 +102,15 @@
 }
 
 .why__list-text {
+}
+
+.accented-link {
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-clr);
+}
+
+.paragraph-text {
+  margin: 0 0 20px;
 }
 
 .what {
@@ -128,6 +141,7 @@
 }
 
 .how__list-heading {
+  margin: 0 0 20px;
 }
 
 .how__list {
