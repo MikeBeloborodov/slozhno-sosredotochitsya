@@ -4,7 +4,167 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-image: var(--cover-image);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
   background-attachment: fixed;
   font-family: 'IBM Plex mono', sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  margin: 0;
+  color: var(--text-clr);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.decorated-zone {
+}
+
+.header__theme-menu {
+  align-self: flex-end;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.header__theme-menu-item {
+}
+
+.header__theme-menu-button {
+  color: var(--accent-clr);
+  background-color: transparent;
+  border: none;
+}
+
+.header__theme-menu-button_type_light {
+}
+
+.header__theme-menu-button_active {
+}
+
+.header__theme-menu-button_type_auto {
+}
+
+.header__theme-menu-button_type_dark {
+}
+
+.header__heading {
+  text-shadow: 4px 4px 0 var(--accent-clr);
+}
+
+.accented-shadow-text {
+  color: var(--accent-heading-clr);
+  font-size: var(--accent-heading-fs);
+  font-weight: 700;
+  line-height: 82.5%;
+}
+
+.header__text {
+  padding-right: 50px;
+}
+
+.accented-background {
+  font-size: 18px;
+  color: var(--accent-clr-with-background);
+  background-color: var(--accent-clr);
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.why {
+}
+
+.why__heading {
+}
+
+.h2-heading {
+  color: var(--accent-clr);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.why__list {
+}
+
+.why__list-item {
+}
+
+.why__list-title {
+}
+
+.why__list-text {
+}
+
+.what {
+}
+
+.what__heading {
+}
+
+.what__list {
+}
+
+.what__list-item {
+}
+
+.what__list-title {
+}
+
+.what__list-text {
+}
+
+.how {
+}
+
+.how__heading {
+}
+
+.how__list-container {
+}
+
+.how__list-heading {
+}
+
+.how__list {
+}
+
+.how__list-item {
+}
+
+.how__list-title {
+  font-weight: 400;
+}
+
+.how__list-text {
+}
+
+.gallery {
+}
+
+.gallery__heading {
+}
+
+.gallery__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gallery__list-item {
+}
+
+.gallery__img {
+  inline-size: 100%;
+}
+
+.footer {
+}
+
+.footer__text {
+  text-shadow: 2px 2px 0 var(--accent-clr);
 }
