@@ -1,13 +1,9 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
-
 :root {
   --accent-clr: #ff0070;
   --accent-clr-with-background: #000028;
   --accent-heading-clr: #db00ff;
   --text-clr: #f1b2ce;
+  --button-hover-clr: #ff007066;
   --cover-image: url(../images/cover-image-dark.png);
   --accent-heading-fs: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
