@@ -85,7 +85,7 @@
 @media (min-width: 768px) {
 
   .header__theme-menu {
-    margin: 146px 0 0;
+    margin: 0 0 155px;
   }
 }
 
@@ -140,7 +140,7 @@
 @media (min-width: 768px) {
 
   .header__heading {
-    margin: 175px 0 163px -20px;
+    margin: 20px 0 0 -20px;
   }
 }
 
@@ -157,6 +157,13 @@
   margin: 55px 0 0;
   padding-right: 50px;
   max-inline-size: 364px;
+}
+
+@media (min-width: 768px) {
+
+  .header__text {
+    margin: 163px 0 0;
+  }
 }
 
 .accented-background {
