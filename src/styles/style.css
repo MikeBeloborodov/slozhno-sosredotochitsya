@@ -48,7 +48,7 @@
 
 .h2-heading {
   margin: 0 0 20px;
-  color: var(--accent-clr);
+  color: var(--heading-clr);
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
