@@ -1,5 +1,5 @@
 .what {
-  margin: 10px 0 0;
+  margin: 50px 0 0;
 }
 
 @media (min-width: 768px) {
@@ -9,6 +9,19 @@
   }
 
   .what__heading {
-    max-width: 236px;
+    max-inline-size: 236px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .what__heading {
+    max-inline-size: 314px;
+  }
+
+  .what__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
   }
 }
