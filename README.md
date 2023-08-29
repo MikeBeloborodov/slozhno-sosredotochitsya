@@ -19,10 +19,10 @@ npm run dev
 
 ### Скриншоты
 
-![](./screenshots/screenshot_dark_theme_mobile.png)
-![](./screenshots/screenshot_light_theme_mobile.png)
-![](./screenshots/screenshot_dark_theme_desktop.png)
-![](./screenshots/screenshot_light_theme_desktop.png)
+![](./screenshots/screenshot_dark_theme_mobile.jpg)
+![](./screenshots/screenshot_light_theme_mobile.jpg)
+![](./screenshots/screenshot_dark_theme_desktop.jpg)
+![](./screenshots/screenshot_light_theme_desktop.jpg)
 
 ### Описание
 
