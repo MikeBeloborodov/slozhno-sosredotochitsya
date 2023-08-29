@@ -117,18 +117,9 @@
   outline: none;
 }
 
-.header__theme-menu-button_type_light {
-}
-
 .header__theme-menu-button_active {
   outline: 1px solid var(--menu-clr);
   pointer-events: none;
-}
-
-.header__theme-menu-button_type_auto {
-}
-
-.header__theme-menu-button_type_dark {
 }
 
 .header__heading {
