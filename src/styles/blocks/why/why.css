@@ -7,7 +7,7 @@
   .why {
     display: grid;
     grid-template-columns: 236px 1fr;
-    column-gap: 20px;
+    column-gap: var(--gap);
     margin: 81px 0 0;
   }
 }

@@ -3,16 +3,17 @@ https://github.com/MikeBeloborodov/slozhno-sosredotochitsya
 
 ## Оглавление
 
-- [Запуск проекта](#запуск)
+- [Запуск](#запуск)
 - [Скриншоты](#скриншоты)
 - [Описание](#описание)
 - [Автор](#автор)
 - [Благодарность](#благодарность)
 
-### Запуск проекта
+### Запуск
 
 ```
 git pull https://github.com/MikeBeloborodov/slozhno-sosredotochitsya.git
+cd slozhno-sosredotochitsya
 npm install
 npm run dev
 ```

@@ -99,9 +99,13 @@
 .header__theme-menu-button {
   border: none;
   padding: 0 13px;
+  outline: 1px solid transparent;
   color: var(--menu-clr);
   text-transform: lowercase;
   background-color: transparent;
+  transition-duration: 0.2s;
+  transition-property: outline;
+  cursor: pointer;
 }
 
 .header__theme-menu-button:hover {
